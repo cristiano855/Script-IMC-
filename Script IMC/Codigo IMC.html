@@ -1,0 +1,26 @@
+<html>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+  <!-- Início do script JavaScript -->
+  <script>
+    // Este é um script JavaScript que calcula o Índice de Massa Corporal (IMC)
+
+    // Solicita ao usuário que insira seu peso. 
+    // A função 'prompt' exibe uma caixa de diálogo para entrada de dados.
+    // O texto dentro dos parênteses é mostrado na caixa de diálogo.
+    // Nota: É importante que o usuário insira o peso usando ponto para separar decimais.
+    var peso = prompt("Por favor, digite o PESO") // Exemplo de entrada errada: 83,5; entrada correta: 83.5
+
+    // Solicita ao usuário que insira sua altura.
+    // Semelhante à entrada de peso, a altura deve ser inserida com ponto para separar decimais.
+    var altura = prompt("Por favor, digite a ALTURA") // Exemplo de entrada errada: 1,8; entrada correta: 1.8
+
+    // Calcula o Índice de Massa Corporal (IMC) usando a fórmula peso / (altura * altura).
+    var resultado = peso / (altura * altura)
+
+    // Exibe o resultado do cálculo IMC.
+    // A função 'alert' mostra uma caixa de diálogo com o valor de 'resultado'.
+    alert(resultado)
+  </script>
+  <!-- Fim do script JavaScript -->
+</html>
